@@ -11,7 +11,6 @@ class MagazinesController < ApplicationController
     @magazine = Magazine.new(magazine_parameters)
     if @magazine.save
       redirect_to root_path
-      flash[:notice] = 'You successfully created a magazine'
     else
       render :new
     end
