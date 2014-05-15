@@ -1,0 +1,6 @@
+<h1>Magazine Manager</h1>
+<%= link_to 'Add a Magazine', new_magazine_path %>
+
+<% @magazines.each do |magazine| %>
+  <%= magazine[:name] %>
+<% end %>
