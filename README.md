@@ -7,7 +7,7 @@ Run ```rake db:create db:migrate``` to create and migrate database
 
 ##Stories to Implement
 
-As a user, I can add the publication date when adding a magazine (spec pending)
+As a user, I can add the publication date when adding a magazine and be able to see that date on the show page (spec pending)
 As a user, I can edit the the magazine name from the show page (please write the spec for this)
 
 ##Bug Fix
