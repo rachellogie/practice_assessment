@@ -12,7 +12,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
-  gem 'capybara', '~> 2.1.0'
+  gem 'capybara', '~> 2.2.0'
 end
 
 
