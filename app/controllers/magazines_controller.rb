@@ -16,6 +16,10 @@ class MagazinesController < ApplicationController
     end
   end
 
+  def show
+    @magazine = Magazine.find(params[:id])
+  end
+
   private
 
   def magazine_parameters

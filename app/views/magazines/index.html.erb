@@ -2,5 +2,5 @@
 <%= link_to 'Add a Magazine', new_magazine_path %>
 
 <% @magazines.each do |magazine| %>
-  <%= magazine[:name] %>
+  <%= link_to magazine[:name], magazine_path(magazine) %>
 <% end %>

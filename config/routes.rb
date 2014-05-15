@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'magazines/new', to: 'magazines#new', as: 'new_magazine'
   get 'magazines', to: 'magazines#index'
   post 'magazines', to: 'magazines#create'
+  get 'magazines/:id', to: 'magazines#show', as: 'magazine'
 end
