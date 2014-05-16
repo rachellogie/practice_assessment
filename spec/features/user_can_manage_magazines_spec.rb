@@ -15,7 +15,7 @@ feature 'User can manage magazines' do
     expect(page).to have_content 'Us Weekly'
   end
 
-  it 'by adding a magazine with the name and publication date of the magazine' do
+  pending 'by adding a magazine with the name and publication date of the magazine' do
     visit '/'
     click_on 'Add a Magazine'
 
