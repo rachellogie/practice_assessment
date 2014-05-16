@@ -1,9 +1,11 @@
 practice_assessment
 ===================
 ##Setup
+
 Please fork and clone this repo.
 Run ```bundle```
 Run ```rake db:create db:migrate``` to create and migrate database
+Run ```rake db:seed``` to seed the database
 
 ##Stories to Implement
 
