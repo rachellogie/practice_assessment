@@ -18,6 +18,7 @@ class MagazinesController < ApplicationController
 
   def show
     @magazine = Magazine.find(params[:id])
+    @ads = AdService.new.ads_for(@magazine)
   end
 
   private
