@@ -1,3 +1,7 @@
+<h2>Magazine Name</h2>
 <%= @magazine.name %>
 
-<%= @ads %>
+<h2>Ads for Magazine</h2>
+<%= @ads.map do |ad|%>
+  <%= ad["title"] %>
+<% end.delete([]) %>
